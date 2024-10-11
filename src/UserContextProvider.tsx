@@ -20,7 +20,7 @@ const contextInitialValues = {
 
 };
 
-const UserContext = createContext<UserContextType>(contextInitialValues);
+export const UserContext = createContext<UserContextType>(contextInitialValues);
 
 
 interface Props {
